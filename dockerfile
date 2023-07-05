@@ -3,3 +3,7 @@ RUN git clone https://github.com/standemdem/AJC-calcul
 WORKDIR /AJC-calcul
 RUN make deploy
 CMD ["./deploy/exomake","1", "2", "2", "2", "5"]
+CMD ["./deploy/exomake","2", "2", "2", "2", "5"]
+CMD ["./deploy/exomake","3", "2", "2", "2", "5"]
+CMD ["./deploy/exomake","4", "2", "2", "2", "5"]
+CMD ["./deploy/exomake","5", "2", "2", "2", "5"]
